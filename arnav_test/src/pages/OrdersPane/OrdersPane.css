@@ -1,0 +1,18 @@
+/* OrdersPane.css */
+.orders-container {
+  display: flex;
+  width: 100vw; /* Use the entire width of the viewport */
+  height: 100vh;
+}
+
+.orders-right-pane {
+  flex: 1; /* Take up remaining space in the container */
+  padding: 20px 30px 0px 30px;
+  border-left: 1px solid #0d0d0d;
+  background-color: #505050;
+}
+
+.orders-header {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
